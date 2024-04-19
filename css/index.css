@@ -1,0 +1,45 @@
+body {
+    background-image: url('../img/ocean.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .h1-container {
+    text-align: center; /* Center align the content */
+    margin-top: 20px; /* Adjust margin-top for spacing */
+  }
+  
+  h1 {
+    font-size: 48px; /* Set font size to 48 pixels */
+    color: black; /* Set text color to black */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow */
+    font-weight: bold; /* Make the text bold */
+  }
+
+  .sec-c__item {
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white color */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sec-c__item:hover {
+    background-color: rgba(255, 255, 255, 0); /* Lighten the background color on hover */
+  }
+  
+  #mode {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #mode li {
+    color: white; /* Set text color */
+    padding: 10px; /* Add padding to each list item */
+    cursor: pointer;
+  }
+  
+  #mode li:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white color on hover */
+  }
+
+  

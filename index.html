@@ -3,48 +3,34 @@
   <head>
     <meta charset="UTF-8">
     <title>Tic Tac Toe</title>
-    <link rel="canonical" href="hello-world.html">
+    <link rel="stylesheet" href="css/index.css">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
   </head>
-  <body bgcolor="Red">
+  <body>
     <main>
       <div id="menu" class="menu-container">
         <div id="hamburger" class="menu-container__menu"></div>
       </div>
-      <heder class="header">
-        <div class="header__move-container">
-          <div id="selectX" class="header__move-container--x"></div>
-          <div id="selectO" class="header__move-container--o"></div>
-        </div>
-      </heder>
+      <div class="container">
+      <div class="h1-container"> <!-- Add a div container -->
+        <h1>Tic Tac Toe</h1> <!-- Add the h1 tag here -->
+      </div>
+    
       <section class="sec-c">
-        <div id="c-0" class="sec-c__item c-0">
+        <div id="c-0" class="sec-c__item c-0"> </div>
+        <div id="c-1" class="sec-c__item c-1"></div>
+        <div id="c-2" class="sec-c__item c-2"></div>
+        <div id="c-3" class="sec-c__item c-3"> </div>
+        <div id="c-4" class="sec-c__item c-4"></div>
+        <div id="c-5" class="sec-c__item c-5"></div>
+        <div id="c-6" class="sec-c__item c-6"></div>
+        <div id="c-7" class="sec-c__item c-7"></div>
+        <div id="c-8" class="sec-c__item c-8"></div>
 
-        </div>
-        <div id="c-1" class="sec-c__item c-1">
-
-        </div>
-        <div id="c-2" class="sec-c__item c-2">
-
-        </div>
-        <div id="c-3" class="sec-c__item c-3">
-
-        </div>
-        <div id="c-4" class="sec-c__item c-4">
-
-        </div>
-        <div id="c-5" class="sec-c__item c-5">
-
-        </div>
-        <div id="c-6" class="sec-c__item c-6">
-
-        </div>
-        <div id="c-7" class="sec-c__item c-7">
-
-        </div>
-        <div id="c-8" class="sec-c__item c-8">
-
-        </div>
+        <div class="header__move-container">
+            <div id="selectX" class="header__move-container--x"></div>
+            <div id="selectO" class="header__move-container--o"></div>
+          </div>
       </section>
       <div id="winModal" class="win-modal">
         <div class="win-modal__pad"></div>
@@ -60,6 +46,6 @@
         </div>
       </aside>
     </main>
-    <script src="tic-tac-toe.js"></script>
+    <script src="js/tic-tac-toe.js"></script>
   </body>
 </html>
